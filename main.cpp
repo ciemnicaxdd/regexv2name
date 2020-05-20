@@ -44,14 +44,14 @@ name::name()
         cout<<w<<endl;
 if(x)
 {
-plik2<<"{\"double\":\""<<w<<"}";
+plik2<<"{\"nazwisko_podwojne\":\""<<w<<"}";
 x = false;
 }
 else
 {
     plik2<<","<<endl;
 
-    plik2<<"{\"double\":\""<<w<<"}";
+    plik2<<"{\"nazwisko_podwojne\":\""<<w<<"}";
 }
 
 }
